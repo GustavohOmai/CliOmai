@@ -158,6 +158,7 @@ main {
     border-radius: 1rem;
     width: 60%;
     margin: .5rem 0 .5rem 0;
+    background-color: var(--textcolor);
 }
 
 @media only screen and (max-width: 500px) {
@@ -243,13 +244,13 @@ main {
         min-width: 100%;
         justify-content: space-between;
         align-items: flex-end;
-        margin-bottom: 90%;
     }
 
     .weather{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         padding: 1rem;
         margin-bottom: 0;
     }
@@ -270,7 +271,7 @@ main {
     }
 
     .infos h2{
-        font-size: 1rem;
+        font-size: .8rem;
     }
 
     .max p{
@@ -281,8 +282,10 @@ main {
         font-size: .8rem;
     }
 
-    .max-min{
-        margin-bottom: 80%;
+    .graus{
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 60%;
     }
 
     .remove{
