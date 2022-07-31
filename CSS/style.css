@@ -252,7 +252,6 @@ main {
         justify-content: center;
         align-items: center;
         padding: 1rem;
-        margin-bottom: 0;
     }
 
     .img-weather{
@@ -283,9 +282,10 @@ main {
     }
 
     .graus{
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
         margin-bottom: 60%;
+        margin-left: 0;
     }
 
     .remove{
