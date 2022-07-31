@@ -252,6 +252,7 @@ main {
         justify-content: center;
         align-items: center;
         padding: 1rem;
+        max-width: 100%;
     }
 
     .img-weather{
